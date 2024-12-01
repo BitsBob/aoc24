@@ -1,0 +1,4 @@
+*.h
+.vscode/
+build/
+*.txt

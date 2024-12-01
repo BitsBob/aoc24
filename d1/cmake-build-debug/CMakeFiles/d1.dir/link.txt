@@ -1,1 +1,0 @@
-/bin/g++ -g CMakeFiles/d1.dir/main.cpp.o CMakeFiles/d1.dir/utils.cpp.o -o d1

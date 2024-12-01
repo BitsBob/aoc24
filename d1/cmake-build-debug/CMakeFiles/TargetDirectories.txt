@@ -1,3 +1,0 @@
-/home/Audey/aoc24/d1/cmake-build-debug/CMakeFiles/d1.dir
-/home/Audey/aoc24/d1/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/Audey/aoc24/d1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

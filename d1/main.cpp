@@ -1,11 +1,9 @@
-#include <stdio.h>
-#include <fstream>
 #include <iostream>
 #include <vector>
 #include <string>
 #include <algorithm>
 
-#include "utils.h"
+#include "../utils/utils.h"
 
 int part_one() {
     int num_lines = 0;

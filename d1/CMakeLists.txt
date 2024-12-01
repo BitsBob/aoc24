@@ -3,6 +3,8 @@ project(d1)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(d1 main.cpp
-        utils.cpp
-        utils.h)
+add_executable(d1 
+        main.cpp
+        ../utils/utils.cpp
+        ../utils/utils.h
+)

@@ -3,7 +3,7 @@
 #include <vector>
 #include <string>
 
-#include "utils.h"
+#include "../utils/utils.h"
 
 int gcd(int a, int b) {
     while (b != 0) {
