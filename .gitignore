@@ -1,4 +1,4 @@
 *.h
 .vscode/
 build/
-*.txt
+**/*.txt
