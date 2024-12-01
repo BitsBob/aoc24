@@ -1,4 +1,3 @@
-*.h
 .vscode/
 build/
 **/*.txt
