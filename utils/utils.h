@@ -17,7 +17,7 @@ int gcd(int a, int b);
 int lcm(int a, int b);
 
 std::vector<std::string> read_from_file(const std::string &filename, int &num_lines);
-
 std::vector<std::string> split(const std::string& s, const std::string& delimiter);
+std::vector<int> stringToIntVector(const std::string& str);
 
 #endif // UTILS_H

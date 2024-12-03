@@ -2,6 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <sstream>
 
 #include "../utils/utils.h"
 
@@ -57,3 +58,12 @@ std::vector<std::string> split(const std::string& s, const std::string& delimite
     return tokens;
 }
 
+std::vector<int> stringToIntVector(const std::string& str) {
+    std::vector<int> result;
+    std::stringstream ss(str);
+    int num;
+    while (ss >> num) {
+        result.push_back(num);
+    }
+    return result;
+}

@@ -10,10 +10,6 @@ int part_one() {
     const std::string filename = "/home/Audey/aoc24/d1/input.txt";
 
     std::vector<std::string> lines = read_from_file(filename, num_lines);
-    if (lines.empty()) {
-        std::cerr << "Error reading file: " << filename << std::endl;
-        return -1;
-    }
 
     std::vector<int> lhs;
     std::vector<int> rhs;
