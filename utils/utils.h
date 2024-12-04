@@ -4,7 +4,7 @@
 #include <string>
 #include <vector>
 
-#define LOG(x) std::cout << "[LOG] " << x << std::endl;
+#define DBG(x) std::cout << "[DEBUG] " << x << std::endl;
 #define ERROR_LOG(x) std::cerr << "[ERROR] " << x << std::endl;
 
 #define ASSERT(condition, msg) \
